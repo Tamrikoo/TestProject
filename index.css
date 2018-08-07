@@ -1,0 +1,16 @@
+body
+ {
+    background:  rgb(245, 229, 245);
+
+ }
+
+button {
+    background: #b5bdc8;
+    background: linear-gradient(to top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 20px;
+    text-align: center;
+     }
