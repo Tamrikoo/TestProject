@@ -1,4 +1,4 @@
-var btns =["STOP","Circle","Square","Clear element" ]
+var btns =["STOP","Circle","Square"]
 for (x of btns) {
 		var btn = document.createElement('button');
 		btn.innerHTML = x;
@@ -26,15 +26,8 @@ for (x of btns) {
        elem.style.borderRadius = null
               timerTick = setTimeout ( tickFunction, 1000 )
         }
-
-    if (btn.innerHTML==="Clear element"){
-      btn.onclick=function(event){
-        var el = document.getElementsByClassName("myClass")
-        el.parentNode.removeChild(el)
-       }
      }
    }
-}
 
 
 
